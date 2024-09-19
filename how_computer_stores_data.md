@@ -56,7 +56,7 @@ Table1. Storage sizes of variables or data types in the above C code
 
 
 **Question 1**  
-Which is bigger? _The size of struct Student (**104**)
+Which is bigger? _The size of struct Student (**104**)_
 
 1. The size of struct Student (**104**) or
 2. Subtotal of the sizes of all the members of struct Student (**103**).
