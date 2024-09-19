@@ -48,15 +48,15 @@ Table1. Storage sizes of variables or data types in the above C code
 
 | Variable or data type              | Syze in bytes | 
 |------------------------------------|---------------|
-| student1.id (**100**)              |               |
-| student1.province (**101**)            |               |
-| student1.age (**102**)                 |               |
-| Add lines **100**, **101**, and **102** (**103**)	 |               |
-| Struct student (**104**)               |               |
+| student1.id (**100**)              |       4        |
+| student1.province (**101**)            |      3         |
+| student1.age (**102**)                 |       4        |
+| Add lines **100**, **101**, and **102** (**103**)	 |      11         |
+| Struct student (**104**)               |       12        |
 
 
 **Question 1**  
-Which is bigger? ____________
+Which is bigger? ______1_____
 
 1. The size of struct Student (**104**) or
 2. Subtotal of the sizes of all the members of struct Student (**103**).
@@ -81,7 +81,7 @@ Table 2: Data presentation of variables in the above C code
 
 | Variables         | Representation of values (in hexadecimal) (after a value is assigned to the variable) | 
 |-------------------|---------------|
-| student1.id       |   |
-| student1.province |    |
-| student1.age      |     |
-| student1          |     |
+| student1.id       | 0x7fffffffeb2c: 10001000        01101111        11111011        00000101 |
+| student1.province | 0x7fffffffeb30: 01001111        01001110        00000000        00000000 |
+| student1.age      | 0x7fffffffeb34: 00010010        00000000        00000000        00000000 |
+| student1          | 0x7fffffffeb2c: 10001000        01101111        11111011        00000101 |
